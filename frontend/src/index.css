@@ -111,6 +111,11 @@ img.medium {
   font-weight: 800;
 }
 
-.fa-star {
+.rating span {
   color: cyan;
+  margin: 0.1rem;
+}
+
+.rating span:last-child {
+  color: black;
 }

@@ -18,7 +18,7 @@ const data = {
       image: "./images/DiorSauvage.jpg",
       price: 120,
       brand: "Dior",
-      rating: 4,
+      rating: 4.5,
       numReviews: 7,
       description: "A very good fragrance",
     },
