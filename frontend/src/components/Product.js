@@ -5,7 +5,7 @@ function product(props) {
   const { product } = props;
   return (
     <div key={product.id} className="card">
-      <a href="product.html">
+      <a href={`/product/${product.id}`}>
         <img className="medium" src={product.image} alt="pic" />
       </a>
       <div className="card-body">
