@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import Rating from "../components/Rating";
 
 import data from "../data";
@@ -10,7 +11,8 @@ export default function (props) {
   } else
     return (
       <div>
-        <div className="row">
+        <Link to="/">Back to results</Link>
+        <div className="row top">
           <div className="col-2">
             <img className="large" src={product.image} alt="pic" />
           </div>
@@ -44,7 +46,7 @@ export default function (props) {
                 </li>
                 <li>
                   <div className="row">
-                    <div>Sattus</div>
+                    <div>Status</div>
                     <div>
                       {product.countInStock ? (
                         <span className="success">Available</span>
