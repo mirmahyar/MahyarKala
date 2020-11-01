@@ -26,7 +26,7 @@ function App() {
           <Route path="/" component={HomePage} exact></Route>
         </main>
 
-        <footer class="row center">All Rights Reserved 2020</footer>
+        <footer className="row center">All Rights Reserved 2020</footer>
       </div>
     </BrowserRouter>
   );
